@@ -30,6 +30,12 @@ body.dark {
     margin-left: 80px;
 }
 
+.theme-toggle-btn:hover{
+    box-shadow: 0 2px 5px 2px var(--secundary-light-gray);
+    transition: var(--transition);
+    rotate: 360deg;
+}
+
 .fade-out {
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
@@ -57,7 +63,6 @@ body.dark .wrapper {
     color: var(--secundary-white);
 }
 
-/* Additional styles for other elements like buttons, inputs, etc. */
 
 
 * {
@@ -138,6 +143,7 @@ input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+
 
 .icon-btn {
     background-color: var(--primary-purple);
